@@ -7,5 +7,7 @@ class BlubberBlog extends StudIPPlugin implements SystemPlugin {
         $top->setURL(URLHelper::getURL("plugins.php/blubber/streams/profile?user_id=8a2ca05a506a147e9f99a333e2bc3cd7"));
         $top->setImage($this->getPluginURL()."/assets/news_header.png");
         Navigation::addItem("/blubberblog", $top);
+        
+        PageLayout::addHeadElement("link", array('rel' => "stylesheet", "href" => $this->getPluginURL()."/assets/blubberblog.css"));
     }
 }
