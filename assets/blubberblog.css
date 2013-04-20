@@ -1,3 +1,7 @@
 li.thread[data-autor="8a2ca05a506a147e9f99a333e2bc3cd7"] {
     background-color: #f4f4f4;
 }
+
+li.thread[data-autor="8a2ca05a506a147e9f99a333e2bc3cd7"] li.comment {
+    background-color: #eeeeee;
+}
